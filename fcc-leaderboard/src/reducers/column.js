@@ -1,7 +1,7 @@
 import C from '../constants'
 
 const columnReducer = (state="", action) => {
-  return (action.type === CHANGE) ?
+  return (action.type === C.CHANGE) ?
           action.column:
           state
 };
